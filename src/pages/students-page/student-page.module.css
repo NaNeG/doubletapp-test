@@ -1,0 +1,38 @@
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 130px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.container h1 {
+  margin-bottom: 44px;
+  font-family: "GeometriaBold";
+  font-size: 40px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+
+  .container h1 {
+    font-size: 30px;
+    margin-bottom: 22px;
+  }
+}

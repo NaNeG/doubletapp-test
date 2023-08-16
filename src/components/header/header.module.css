@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 42px;
+  height: 85px;
+  box-shadow: 0 7px 64px 0 rgba(0, 0, 0, 0.07);
+  padding: 0 120px;
+  margin-bottom: 64px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.headerText {
+  font-family: "GeometriaMedium";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.nickname {
+  color: #49C2E8;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 26px;
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+
+  .nickname {
+    font-size: 0;
+  }
+
+  .by {
+    font-size: 0;
+  }
+}

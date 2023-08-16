@@ -1,0 +1,31 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  /* box-shadow: 0 7px 64px 0 rgba(0, 0, 0, 0.07); */
+  box-shadow: var(--standard-shadow);
+  border-radius: 6px;
+  width: 100%;
+  height: 48px;
+  background: white;
+  z-index: 1;
+}
+
+.searchBar {
+  border: none;
+  font-family: "GeometriaRegular";
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.3)
+}

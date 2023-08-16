@@ -1,0 +1,111 @@
+.removeButton {
+	height: 30px;
+	width: 30px;
+	background: white;
+	box-shadow: var(--small-shadow);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: none;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.specialty {
+  width: 280px;
+}
+
+
+.removeButtonCell {
+  width: 30px;
+}
+
+.colorCell {
+	padding: 0;
+  width: 30px;
+}
+
+.colorCircle {
+	width: 30px;
+	height: 30px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #49C2E8;
+}
+
+.red {
+  background-color: #E25B5B;
+}
+
+.green {
+  background-color: #83C872;
+}
+
+.yellow {
+  background-color: #F7FB53;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.orange {
+  background-color: #EFA638;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	outline: 2px solid rgba(255, 255, 255, 0.6);
+	outline-offset: -2px;
+}
+
+.name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 170px;
+	box-sizing: border-box;
+}
+
+.specialty {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 300px;
+	box-sizing: border-box;
+}
+
+.studentInfo {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.studentInfo td {
+  font-family: "GeometriaMedium";
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.avatarCell {
+  width: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .name {
+		max-width: 90px;
+	}
+
+	.specialty {
+		max-width: 140px;
+	}
+}
+
+
+

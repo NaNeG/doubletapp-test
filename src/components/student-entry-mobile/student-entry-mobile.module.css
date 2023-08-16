@@ -1,0 +1,185 @@
+.removeButton {
+	height: 30px;
+	width: 30px;
+	background: white;
+	box-shadow: var(--small-shadow);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	flex-shrink: 0;
+	border: none;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.blue {
+  background-color: #49C2E8;
+}
+
+.red {
+  background-color: #E25B5B;
+}
+
+.green {
+  background-color: #83C872;
+}
+
+.yellow {
+  background-color: #F7FB53;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.orange {
+  background-color: #EFA638;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	outline: 2px solid rgba(255, 255, 255, 0.6);
+	outline-offset: -2px;
+}
+
+.card {
+	box-shadow: var(--standard-shadow);
+	box-sizing: border-box;
+	border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+	overflow: hidden;
+	background: white;
+	width: 100%;
+}
+
+.colorCircle {
+	width: 12px;
+	height: 12px;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+	width: 100%;
+	gap: 21px;
+	padding: 16px 16px 14px 16px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	font-family: "GeometriaMedium";
+  font-size: 15px;
+  font-weight: normal;
+	line-height: 20px;
+	align-items: flex-start;
+	z-index: 2;
+	background: white;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+	width: 100%;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+	align-items: center;
+	gap: 14px;
+	font-size: 12px;
+}
+
+.name {
+	display: block;
+	padding: 0;
+	margin: 0;
+	max-width: 300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ratingContainer {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+}
+
+.ratingIcon {
+	width: 10px;
+	height: 10px;
+}
+
+.ratingNumber {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.listContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding: 12px 16px 14px 78px;
+	z-index: 2;
+	background: white;
+	box-sizing: border-box;
+}
+
+.propertiesList {
+	font-family: "GeometriaRegular";
+  font-size: 12px;
+  font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.propertiesList li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.propertiesList li::before {
+	content: '•';
+	font-size: 20px;
+	color: #49C2E8;
+	padding-right: 11px;
+}
+
+@media screen and (max-width: 500px) {
+  .name {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .name {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+	.listContainer {
+		padding: 12px 16px 14px 68px;
+	}
+}
