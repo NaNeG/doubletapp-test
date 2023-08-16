@@ -1,9 +1,3 @@
-Перед стартом необходимо создать .env файл в папке frontend
+Перед стартом необходимо создать .env файл в корневой папке проекта, вставить туда REACT_APP_API_URL='https://front-assignment-api.2tapp.cc/api/'
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Запуск необходимо осуществлять с помощью npm start, открыть http://localhost:3000 в браузере, если этого не случилось автоматически.
